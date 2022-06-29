@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+   <link rel="icon" href="assets/favicon.ico">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/responsive.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@700&family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+   <title>Hannah Machado</title>
+</head>
+<body>
+   <header>
+      <nav>
+         <!-- MOBILE MENU -->
+         <div class="menu-wrap">
+            <input type="checkbox" class="toggler" id="menu-toggler">
+            <div class="hamburger"><div></div></div>
+            <div class="menu">
+               <div>
+               <div>
+                  <ul>
+                     <li><a href="https://hannah-machado.netlify.app/">HOME</a></li>
+                     <li><a href="#my-work-link" class="mobile-nav">WORK</a></li>
+                     <li><a href="#about-link" class="mobile-nav">ABOUT</a></li>
+                     <li><a href="#form-link"  class="mobile-nav">CONTACT</a></li>
+
+                     <div class="icon-holder">
+                        <li class="icon-svg">
+                        <a href="https://github.com/hun-ah" target="_blank" class="mobile-nav">
+                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 0.185028C3.35625 0.185028 0 3.54128 0 7.68503C0 11.0038 2.14687 13.8069 5.12812 14.8007C5.50312 14.8663 5.64375 14.6413 5.64375 14.4444C5.64375 14.2663 5.63438 13.6757 5.63438 13.0475C3.75 13.3944 3.2625 12.5882 3.1125 12.1663C3.02813 11.9507 2.6625 11.285 2.34375 11.1069C2.08125 10.9663 1.70625 10.6194 2.33437 10.61C2.925 10.6007 3.34687 11.1538 3.4875 11.3788C4.1625 12.5132 5.24063 12.1944 5.67188 11.9975C5.7375 11.51 5.93437 11.1819 6.15 10.9944C4.48125 10.8069 2.7375 10.16 2.7375 7.29128C2.7375 6.47565 3.02813 5.80065 3.50625 5.27565C3.43125 5.08815 3.16875 4.3194 3.58125 3.28815C3.58125 3.28815 4.20937 3.09128 5.64375 4.0569C6.24375 3.88815 6.88125 3.80378 7.51875 3.80378C8.15625 3.80378 8.79375 3.88815 9.39375 4.0569C10.8281 3.0819 11.4563 3.28815 11.4563 3.28815C11.8688 4.3194 11.6062 5.08815 11.5312 5.27565C12.0094 5.80065 12.3 6.46628 12.3 7.29128C12.3 10.1694 10.5469 10.8069 8.87813 10.9944C9.15 11.2288 9.38438 11.6788 9.38438 12.3819C9.38438 13.385 9.375 14.1913 9.375 14.4444C9.375 14.6413 9.51562 14.8757 9.89062 14.8007C11.3795 14.298 12.6733 13.3411 13.5898 12.0647C14.5064 10.7882 14.9996 9.25647 15 7.68503C15 3.54128 11.6438 0.185028 7.5 0.185028Z" fill="#EFEFEF"/>
+                        </svg>
+                        </a>
+                        </li>
+                        <li class="icon-svg">
+                        <a href="https://www.linkedin.com/in/hannah-wohl-machado-798040107/" target="_blank" class="mobile-nav">
+                        <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14 1.52941V13.4706C14 13.7436 13.8915 14.0054 13.6985 14.1985C13.5054 14.3915 13.2436 14.5 12.9706 14.5H1.02941C0.756395 14.5 0.49456 14.3915 0.301508 14.1985C0.108456 14.0054 0 13.7436 0 13.4706L0 1.52941C0 1.25639 0.108456 0.99456 0.301508 0.801508C0.49456 0.608456 0.756395 0.5 1.02941 0.5L12.9706 0.5C13.2436 0.5 13.5054 0.608456 13.6985 0.801508C13.8915 0.99456 14 1.25639 14 1.52941ZM4.11765 5.85294H2.05882V12.4412H4.11765V5.85294ZM4.30294 3.58824C4.30403 3.4325 4.27443 3.27808 4.21583 3.13379C4.15723 2.98949 4.07079 2.85815 3.96144 2.74727C3.85208 2.63638 3.72196 2.54813 3.57849 2.48753C3.43502 2.42694 3.28103 2.3952 3.12529 2.39412H3.08824C2.77154 2.39412 2.46781 2.51993 2.24387 2.74387C2.01993 2.96781 1.89412 3.27154 1.89412 3.58824C1.89412 3.90494 2.01993 4.20866 2.24387 4.4326C2.46781 4.65654 2.77154 4.78235 3.08824 4.78235C3.24398 4.78618 3.39895 4.75929 3.5443 4.70321C3.68965 4.64713 3.82252 4.56295 3.93532 4.4555C4.04813 4.34805 4.13866 4.21942 4.20173 4.07697C4.26481 3.93452 4.2992 3.78104 4.30294 3.62529V3.58824ZM11.9412 8.43882C11.9412 6.45824 10.6812 5.68824 9.42941 5.68824C9.01956 5.66771 8.61149 5.75501 8.2459 5.94141C7.88031 6.12782 7.56999 6.40682 7.34588 6.75059H7.28824V5.85294H5.35294V12.4412H7.41176V8.93706C7.382 8.57818 7.49505 8.22205 7.72635 7.94603C7.95764 7.67002 8.28851 7.49642 8.64706 7.46294H8.72529C9.38 7.46294 9.86588 7.87471 9.86588 8.91235V12.4412H11.9247L11.9412 8.43882Z" fill="#EFEFEF"/>
+                        </svg>
+                        </a>
+                        </li>
+                     </div>
+                  </ul>
+               </div>
+               </div>
+            </div>
+         </div>
+         <!-- *********** -->
+         <div class="fix-content-center-nav">
+         <span id="hm" data-end="."><a href="#intro-link">HM</a></span>
+            <ul id="nav-list">
+               <li><a href="#my-work-link" class="hover">WORK</a></li>
+               <li><a href="#about-link" class="hover">ABOUT</a></li>
+               <li><a href="#form-link" class="hover">CONNECT</a></li>
+               <li class="icon-svg">
+                  <a href="https://www.linkedin.com/in/hannah-wohl-machado-798040107/" target="_blank">
+                     <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M14 1.52941V13.4706C14 13.7436 13.8915 14.0054 13.6985 14.1985C13.5054 14.3915 13.2436 14.5 12.9706 14.5H1.02941C0.756395 14.5 0.49456 14.3915 0.301508 14.1985C0.108456 14.0054 0 13.7436 0 13.4706L0 1.52941C0 1.25639 0.108456 0.99456 0.301508 0.801508C0.49456 0.608456 0.756395 0.5 1.02941 0.5L12.9706 0.5C13.2436 0.5 13.5054 0.608456 13.6985 0.801508C13.8915 0.99456 14 1.25639 14 1.52941ZM4.11765 5.85294H2.05882V12.4412H4.11765V5.85294ZM4.30294 3.58824C4.30403 3.4325 4.27443 3.27808 4.21583 3.13379C4.15723 2.98949 4.07079 2.85815 3.96144 2.74727C3.85208 2.63638 3.72196 2.54813 3.57849 2.48753C3.43502 2.42694 3.28103 2.3952 3.12529 2.39412H3.08824C2.77154 2.39412 2.46781 2.51993 2.24387 2.74387C2.01993 2.96781 1.89412 3.27154 1.89412 3.58824C1.89412 3.90494 2.01993 4.20866 2.24387 4.4326C2.46781 4.65654 2.77154 4.78235 3.08824 4.78235C3.24398 4.78618 3.39895 4.75929 3.5443 4.70321C3.68965 4.64713 3.82252 4.56295 3.93532 4.4555C4.04813 4.34805 4.13866 4.21942 4.20173 4.07697C4.26481 3.93452 4.2992 3.78104 4.30294 3.62529V3.58824ZM11.9412 8.43882C11.9412 6.45824 10.6812 5.68824 9.42941 5.68824C9.01956 5.66771 8.61149 5.75501 8.2459 5.94141C7.88031 6.12782 7.56999 6.40682 7.34588 6.75059H7.28824V5.85294H5.35294V12.4412H7.41176V8.93706C7.382 8.57818 7.49505 8.22205 7.72635 7.94603C7.95764 7.67002 8.28851 7.49642 8.64706 7.46294H8.72529C9.38 7.46294 9.86588 7.87471 9.86588 8.91235V12.4412H11.9247L11.9412 8.43882Z" fill="#EFEFEF"/>
+                     </svg></a>
+               </li>
+               <li class="icon-svg">
+                  <a href="https://github.com/hun-ah" target="_blank">
+                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 0.185028C3.35625 0.185028 0 3.54128 0 7.68503C0 11.0038 2.14687 13.8069 5.12812 14.8007C5.50312 14.8663 5.64375 14.6413 5.64375 14.4444C5.64375 14.2663 5.63438 13.6757 5.63438 13.0475C3.75 13.3944 3.2625 12.5882 3.1125 12.1663C3.02813 11.9507 2.6625 11.285 2.34375 11.1069C2.08125 10.9663 1.70625 10.6194 2.33437 10.61C2.925 10.6007 3.34687 11.1538 3.4875 11.3788C4.1625 12.5132 5.24063 12.1944 5.67188 11.9975C5.7375 11.51 5.93437 11.1819 6.15 10.9944C4.48125 10.8069 2.7375 10.16 2.7375 7.29128C2.7375 6.47565 3.02813 5.80065 3.50625 5.27565C3.43125 5.08815 3.16875 4.3194 3.58125 3.28815C3.58125 3.28815 4.20937 3.09128 5.64375 4.0569C6.24375 3.88815 6.88125 3.80378 7.51875 3.80378C8.15625 3.80378 8.79375 3.88815 9.39375 4.0569C10.8281 3.0819 11.4563 3.28815 11.4563 3.28815C11.8688 4.3194 11.6062 5.08815 11.5312 5.27565C12.0094 5.80065 12.3 6.46628 12.3 7.29128C12.3 10.1694 10.5469 10.8069 8.87813 10.9944C9.15 11.2288 9.38438 11.6788 9.38438 12.3819C9.38438 13.385 9.375 14.1913 9.375 14.4444C9.375 14.6413 9.51562 14.8757 9.89062 14.8007C11.3795 14.298 12.6733 13.3411 13.5898 12.0647C14.5064 10.7882 14.9996 9.25647 15 7.68503C15 3.54128 11.6438 0.185028 7.5 0.185028Z" fill="#EFEFEF"/>
+                     </svg>
+                  </a>
+               </li>
+            </ul>
+         </div>
+      </nav>
+      <span id="intro-link"></span>
+      <section id="intro">
+         <div class="fix-content-center-intro">
+            <p>hi! my <span class="purple">&lt;name&gt;</span> is</p>
+            <h1 data-end=".">Hannah <br> Machado</h1>
+            <p>i'm a full stack developer living in toronto.</p>
+            <ul>
+                  <li class="beside"><a href="#my-work-link" class="intro-buttons">WORK</a></li>
+                  <li class="beside"><a href="#form-link" class="intro-buttons">CONNECT</a></li>
+            </ul>
+         </div>
+      </section>
+   </header>
+   <main id="my-work">
+      <span class="anchor" id="my-work-link"></span>
+      <div id="fix-content-center-work">
+         <a href="#"><section class="projects">
+            <div class="overlay">
+               <div class="project-text">
+                  <h2>Project Title</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+               </div>
+            </div>
+         </a></section>
+         <a href="#"><section class="projects" id="center-project">
+            <div class="overlay">
+               <div class="project-text">
+                  <h2>Project Title</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+               </div>
+            </div>
+         </a></section>
+         <a href="#"><section class="projects" id="last-project">
+            <div class="overlay">
+               <div class="project-text">
+                  <h2>Project Title</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+               </div>
+            </div>
+         </a></section>
+      </div>
+   </main>
+   <section id="about">
+      <span class="anchor" id="about-link"></span>
+      <div id="fix-content-center-about">
+         <div>
+            <h3 data-end=".">About</h3>
+         </div>
+         <div>
+            <div id="about-text-container">
+               <p id="about-bigger-p">A fitness professional,<span class="purple"> <br> turned developer, </span>coding my way <br> into the future!</p>
+               <p id="about-smaller-p">I'm a full stack developer born and raised in Toronto, Ontario. I come from a health and wellness background, going from helping people build strong minds and bodies to building websites and applications that have a strong focus on user interface and experience.
+               <p id="about-smaller-p">Whether I am solving a code related problem or conquering a marathon, I thrive off of challenge, learning through process and finding moments of growth every single day.</p>
+               <p id="about-smaller-p">When i'm not writing code, you can find me learning about human behaviour and self-improvement, lifting all the weights, running (slowly), cycling (fast!) and writing in my reflection journal.
+               
+               </p>
+               </p>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section id="skills"></section>
+   <section id="form">
+      <span id="form-link"></span>
+      <div id="fix-content-center-form">
+         <div>
+            <h3 data-end=".">Connect</h3>
+         </div>
+         <div id="form-container">
+            <form action="https://formspree.io/f/xlezzzqj" method="POST" id="my-form">
+               <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name">
+               </div>
+
+               <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="text" id="email" name="email">
+               </div>
+
+               <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea name="message" id="message" cols="60" rows="10"></textarea>
+               </div>
+
+               <button type="submit">SEND MESSAGE</button>
+
+               <div id="status" class="success"></div>
+
+            </form>
+         </div>
+         
+      </div>
+   </section>
+   <footer>
+      <p>&copy; 2022 Hannah Machado. All rights reserved.</p>
+   </footer>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
