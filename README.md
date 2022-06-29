@@ -4,4 +4,4 @@ This is the first iteration of my personal portfolio. It includes my projects, a
 
 **You can check it out here:** [hannahmachado.com](www.hannahmachado.com)
 
-![alt tag](https://ibb.co/XFHmC7w)
+![alt tag](https://ibb.co/XFHmC7w) 
