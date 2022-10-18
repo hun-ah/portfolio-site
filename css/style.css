@@ -349,6 +349,12 @@ transition: 0.3s;
    background-size: cover;
 }
 
+.project1 {
+  background-size: cover;
+  background-position: center;
+  background-image: url(../assets/calculator.png);
+}
+
 
 #center-project {
    margin: 0 40px;
