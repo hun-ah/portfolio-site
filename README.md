@@ -7,6 +7,7 @@ This is the first iteration of my personal portfolio. It includes my projects, a
 ![Screen Shot 2022-06-29 at 11 03 21 AM](https://user-images.githubusercontent.com/103898493/176473413-ba383b60-3c11-4158-9c3f-9cb85e8eeacf.png)
 
 ## How It's Made:
+**Languages used: HTML, CSS, JavaScript**
 
 **This is the first website I have fully programmed from start to finish!** I started out by wireframing how I wanted my site to look in Figma. I created sections for the content, such as an intro section, projects, about and contact. From there, I started to layer in the overall design of the website with things like how the nav bar would look, where headings would sit on the page and where I wanted my buttons to be and how they would be styled. Once I had a design I liked, I started on writing the HTML.
 
