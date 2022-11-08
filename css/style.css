@@ -365,6 +365,12 @@ h1::after {
    background-position: center;
 }
 
+.project3 {
+   background-image: url(../assets/ttt.png);
+   background-size: cover;
+   background-position: center;
+}
+
 
 #center-project {
    margin: 0 40px;
