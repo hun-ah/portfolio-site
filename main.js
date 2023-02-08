@@ -76,8 +76,3 @@ function hideMenu() {
 for (let i = 0; i < mobileLinks.length; i++) {
    mobileLinks[i].addEventListener('click', hideMenu)
 }
-
-
-
-
-

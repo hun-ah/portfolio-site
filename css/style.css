@@ -356,7 +356,7 @@ h1::after {
 .project1 {
    background-size: cover;
    background-position: center;
-   background-image: url(../assets/calculator.png);
+   background-image: url(../assets/habits.jpg);
 }
 
 .project2 {
@@ -411,6 +411,79 @@ body.hasHover .overlay:hover {
    font-size: 0.875rem;
    font-family: 'Anonymous Pro', monospace;
    line-height: 23px;
+}
+
+/* SKILLS =================================== */
+.skills {
+   height: auto;
+   background: #252525;
+   display: flex;
+   justify-content: center;
+}
+
+.skills-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 32px;
+   margin: 32px;
+   flex-wrap: wrap;
+}
+
+.skills-html {
+   width: 75.64px;
+   height: 70px;
+   background-size: cover;
+   background-position: center;
+   background: url(../assets/html5.svg);
+}
+
+.skills-css {
+   width: 75.64px;
+   height: 70px;
+   background-size: cover;
+   background-position: center;
+   background: url(../assets/css3.svg);
+}
+
+.skills-js {
+   width: 79px;
+   height: 70px;
+   background-size: cover;
+   background-position: center;
+   background: url(../assets/js.svg);
+}
+
+.skills-nodejs {
+   width: 110.05px;
+   height: 70px;
+   background-size: cover;
+   background-position: center;
+   background: url(../assets/nodejs.svg);
+}
+
+.skills-react {
+   width: 82.3px;
+   height: 70px;
+   background-size: cover;
+   background-position: center;
+   background: url(../assets/react.svg);
+}
+
+.skills-mongo {
+   width: 165.53px;
+   height: 70px;
+   background-size: cover;
+   background-position: center;
+   background: url(../assets/mongo.svg);
+}
+
+.skills-express {
+   width: 127.67px;
+   height: 70px;
+   background-size: cover;
+   background-position: center;
+   background: url(../assets/express.svg);
 }
 
 /* ABOUT =================================== */
