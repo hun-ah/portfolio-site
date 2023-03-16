@@ -349,8 +349,6 @@ h1::after {
    position: relative;
    width: 340px;
    height: 340px;
-   background-image: url(../assets/placeholder.jpg);
-   background-size: cover;
 }
 
 .project1 {
@@ -360,13 +358,13 @@ h1::after {
 }
 
 .project2 {
-   background-image: url(../assets/book.png);
+   background-image: url(../assets/react-form2.jpeg);
    background-size: cover;
    background-position: center;
 }
 
 .project3 {
-   background-image: url(../assets/ttt.png);
+   background-image: url(../assets/book.png);
    background-size: cover;
    background-position: center;
 }
