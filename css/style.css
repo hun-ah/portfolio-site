@@ -354,17 +354,17 @@ h1::after {
 .project1 {
    background-size: cover;
    background-position: center;
-   background-image: url(../assets/habits.jpg);
+   background-image: url(../assets/e-commerce.jpg);
 }
 
 .project2 {
-   background-image: url(../assets/react-form.jpeg);
+   background-image: url(../assets/habits.jpg);
    background-size: cover;
    background-position: center;
 }
 
 .project3 {
-   background-image: url(../assets/book.png);
+   background-image: url(../assets/react-form.jpg);
    background-size: cover;
    background-position: center;
 }
