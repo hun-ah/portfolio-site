@@ -1,5 +1,6 @@
 /*  ======================== MOBILE ================================= */
-@media (min-width: 556px){
+@media (min-width: 556px) {
+
    .menu-wrap .hamburger,
    .menu-wrap .toggler {
       display: none;
@@ -10,34 +11,34 @@
 @media screen and (max-width: 851px) {
 
    svg:hover path {
-   fill: white
-}
-  
-#hm a:hover {
-   color: white;
- }
-
-#hm:hover:after {
-   color: #E481FD;
-   content: attr(data-end);
-   transition: 0.3s ease;
+      fill: white
    }
 
- .intro-buttons:hover {
-   background-color: transparent;
-   color: #EFEFEF;
-   transition: 0.3s;
-  } 
+   #hm a:hover {
+      color: white;
+   }
 
- form button:hover {
-   background-color: transparent;
-   color: #efefef;
+   #hm:hover:after {
+      color: #E481FD;
+      content: attr(data-end);
+      transition: 0.3s ease;
+   }
+
+   .intro-buttons:hover {
+      background-color: transparent;
+      color: #EFEFEF;
+      transition: 0.3s;
+   }
+
+   form button:hover {
+      background-color: transparent;
+      color: #efefef;
    }
 }
 
 /* NAV/HEADER =================================== */
 @media screen and (max-width: 556px) {
-.fix-content-center-nav ul {
+   .fix-content-center-nav ul {
       display: none;
    }
 
@@ -52,7 +53,7 @@
    }
 
    .beside:nth-child(1) {
-      margin: 40px 0 0 0 ;
+      margin: 40px 0 0 0;
    }
 
    .intro-buttons {
@@ -78,19 +79,19 @@
 
 /* MY WORK  =================================== */
 @media (hover: none) {
-.overlay {
-   position: absolute;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
-   background: rgba(0, 0, 0, 0.6);
-   color: #EFEFEF;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   opacity: 1;
-}
+   .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      color: #EFEFEF;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      opacity: 1;
+   }
 }
 
 /*  ======================== TABLET ================================= */
@@ -99,15 +100,15 @@
 @media screen and (max-width: 1164px) {
    .fix-content-center-nav {
       width: 100%;
-      padding: 24px 32px;
+      padding: 24px;
    }
 }
 
 /* MY WORK  =================================== */
 @media screen and (max-width: 1164px) {
-#fix-content-center-work {
+   #fix-content-center-work {
       width: 100%;
-      padding: 80px 40px;
+      padding: 80px 24px;
    }
 
    .projects {
@@ -127,11 +128,11 @@
 
 /* ABOUT  =================================== */
 @media screen and (max-width: 1164px) {
-#fix-content-center-about {
-   width: 100%;
-   padding: 0px 40px;
-   padding-top: 110px;
-   justify-content: space-evenly;
+   #fix-content-center-about {
+      width: 100%;
+      padding: 0px 24px;
+      padding-top: 110px;
+      justify-content: space-evenly;
    }
 
    #fix-content-center-about {
@@ -145,9 +146,9 @@
 
 /* FORM =================================== */
 @media screen and (max-width: 1164px) {
- #fix-content-center-form {
+   #fix-content-center-form {
       width: 100%;
-      padding: 110px 40px;
+      padding: 110px 24px;
       display: block;
    }
 
@@ -188,4 +189,3 @@
       width: 100%;
    }
 }
-
