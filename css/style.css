@@ -338,16 +338,31 @@ h1::after {
 #fix-content-center-work {
    width: 1100px;
    margin: 0 auto;
-   padding: 80px 0px;
+   padding: 80px 0;
    display: flex;
    flex-wrap: wrap;
+   gap: 24px;
+   justify-content: center;
+   align-items: center;
 }
 
-
-.projects {
+.work-card {
+   display: flex;
+   flex-direction: column;
    position: relative;
-   width: 340px;
-   height: 340px;
+   height: 561px;
+   width: 350px;
+   box-shadow: 5px 5px 20px rgba(26, 26, 26, 0.05);
+   border-radius: 8px;
+   background: #FFF;
+   color: #1F2021;
+}
+
+.work-img-container {
+   width: 100%;
+   height: 350px;
+   border-top-left-radius: 8px;
+   border-top-right-radius: 8px;
 }
 
 .project1 {
@@ -378,36 +393,81 @@ h1::after {
    top: 0;
    left: 0;
    width: 100%;
-   height: 100%;
-   background: rgba(0, 0, 0, 0.6);
-   color: #EFEFEF;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
+   height: 350px;
+   background: rgba(255, 255, 255, 0.3);
+   border-top-left-radius: 8px;
+   border-top-right-radius: 8px;
    opacity: 0;
    transition: opacity 0.25s;
 }
 
 body.hasHover .overlay:hover {
-   opacity: 1;
+   opacity: 0.5;
 }
 
 .project-text {
-   padding: 0 32px;
+   padding: 32px;
 }
 
 .project-text h2 {
-   font-weight: 700;
-   font-size: 1.375rem;
    font-family: 'Inter', sans-serif;
+   font-weight: 700;
+   font-size: 22px;
+   line-height: 28px;
    margin-bottom: 8px;
 }
 
 .project-text p {
-   font-weight: 700;
-   font-size: 0.875rem;
-   font-family: 'Anonymous Pro', monospace;
+   color: #76787A;
+   font-family: 'Inter', sans-serif;
+   font-weight: 400;
+   font-size: 14px;
    line-height: 23px;
+}
+
+.project-btn-container {
+   font-family: 'Inter', sans-serif;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 17px;
+   margin-top: 24px;
+   display: flex;
+   justify-content: flex-start;
+   gap: 8px;
+}
+
+.project-btn-container>a {
+   padding: 12px 24px;
+   background: #1F2021;
+   color: #FFF;
+   border-radius: 8px;
+}
+
+.project-btn-container>a:hover {
+   background-color: rgb(44, 45, 45);
+   transition: 0.3s;
+}
+
+.project-btn-container a+a {
+   padding: 8px 16px;
+   background: #E5E9ED;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.project-btn-container a+a:hover {
+   background-color: #d2d7dd;
+   transition: 0.3s;
+}
+
+.github-logo-project {
+   height: 16px;
+   width: 16px;
+   background-image: url(../assets/github-cat.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: 16px;
 }
 
 /* SKILLS =================================== */

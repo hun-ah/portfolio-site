@@ -111,17 +111,11 @@
       padding: 80px 24px;
    }
 
-   .projects {
+   .work-card {
       width: calc(50% - 20px);
    }
 
-   #center-project {
-      margin: 0;
-      margin-left: 40px;
-   }
-
-   #last-project {
-      margin-top: 40px;
+   .work-card:nth-of-type(3) {
       width: 100%;
    }
 }
@@ -170,13 +164,8 @@
       flex-direction: column;
    }
 
-   .projects {
+   .work-card {
       width: 100%;
-   }
-
-   #center-project {
-      margin-left: 0px;
-      margin-top: 40px;
    }
 }
 
