@@ -64,7 +64,7 @@ async function handleSubmit(event) {
 form.addEventListener("submit", handleSubmit)
 
 
-// // *********** MOBILE MENU TOGGLE CLOSE ****************
+// *********** MOBILE MENU TOGGLE CLOSE ****************
 
 let mobileLinks = document.getElementsByClassName('mobile-nav')
 
@@ -75,4 +75,16 @@ function hideMenu() {
 
 for (let i = 0; i < mobileLinks.length; i++) {
    mobileLinks[i].addEventListener('click', hideMenu)
+}
+
+// *********** Scroll on button click ****************
+const section = document.getElementById("work-anchor")
+const btns = document.querySelectorAll('.work-btn')
+
+for (let i = 0; i < btns.length; i++) {
+   btns[i].addEventListener('click', scrollToSection)
+}
+
+function scrollToSection() {
+   section.scrollIntoView({ behavior: "smooth" })
 }
