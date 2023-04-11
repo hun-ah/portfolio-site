@@ -8,7 +8,7 @@
 }
 
 /* REMOVE HOVER ON BUTTONS ON MOBILE ================================= */
-@media screen and (max-width: 851px) {
+@media screen and (max-width: 499px) {
 
    svg:hover path {
       fill: white
@@ -45,7 +45,7 @@
 }
 
 /* NAV/HEADER =================================== */
-@media screen and (max-width: 556px) {
+@media screen and (max-width: 560px) {
    .fix-content-center-nav ul {
       display: none;
    }
