@@ -444,7 +444,7 @@ body.hasHover .overlay:hover {
 }
 
 .project-btn-container>a:hover {
-   background-color: rgb(44, 45, 45);
+   background-color: #2c2d2d;
    transition: 0.3s;
 }
 

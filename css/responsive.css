@@ -34,6 +34,14 @@
       background-color: transparent;
       color: #efefef;
    }
+
+   .project-btn-container>a:hover {
+      background: #1F2021;
+   }
+
+   .project-btn-container a+a:hover {
+      background: #E5E9ED;
+   }
 }
 
 /* NAV/HEADER =================================== */
@@ -74,23 +82,6 @@
 
    .fix-content-center-intro {
       width: 100%;
-   }
-}
-
-/* MY WORK  =================================== */
-@media (hover: none) {
-   .overlay {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(0, 0, 0, 0.6);
-      color: #EFEFEF;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      opacity: 1;
    }
 }
 
@@ -176,5 +167,11 @@
 
    #about-text-container {
       width: 100%;
+   }
+}
+
+@media screen and (max-width: 500px) {
+   .overlay {
+      display: none;
    }
 }
