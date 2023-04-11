@@ -170,6 +170,18 @@
    }
 }
 
+@media screen and (max-width: 560px) {
+   .intro-btn-container {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+   }
+
+   .intro-buttons {
+      width: 100%;
+   }
+}
+
 @media screen and (max-width: 500px) {
    .overlay {
       display: none;
