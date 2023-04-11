@@ -25,6 +25,10 @@ a {
    transform: translateY(-20vh);
 }
 
+.work-btn {
+   cursor: pointer;
+}
+
 /* MOBILE MENU =================================== */
 
 .icon-holder {
