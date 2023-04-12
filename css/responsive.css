@@ -97,7 +97,7 @@
 @media screen and (max-width: 1164px) {
    #fix-content-center-work {
       width: 100%;
-      padding: 80px 24px;
+      padding: 110px 24px;
    }
 
    .work-card {
@@ -113,8 +113,7 @@
 @media screen and (max-width: 1164px) {
    #fix-content-center-about {
       width: 100%;
-      padding: 0px 24px;
-      padding-top: 110px;
+      padding: 110px 24px;
       justify-content: space-evenly;
    }
 
